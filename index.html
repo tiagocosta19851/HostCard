@@ -9,15 +9,18 @@
 <style>
 body{
 	position: relative; /* required */
-    padding-top: 70px;	/* prevent content to go underneath the fixed navbar */
+  padding-top: 70px;	/* prevent content to go underneath the fixed navbar */
+}
+.nav-item{
+  width: 150px;
 }
 </style>
 </head>
 <body data-bs-spy="scroll" data-bs-offset="60" data-bs-target="#myNavbar">
     <nav id="myNavbar" class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">Navbar</a>
-            <ul class="nav nav-pills">
+            
+            <ul class="nav row flex-nowrap overflow-auto col-12">
                 <li class="nav-item">
                     <a href="#section1" class="nav-link">Section 1</a>
                 </li>
