@@ -8,19 +8,17 @@ var GenericPage = (function(context, $) {
         FlagPreLoader: true,
         Data:{},
         init: function () {
-            //inicialize cache
-            if (!document.hasFocus()) {
-                window.focus();
-              
-                if (navigator.vibrate) {
-                    window.navigator.vibrate([500, 50, 500]);
-                }
-                else { alert('Não suporta vibração'); }
+             
+            
 
-                alert('Você tem nova mensagem no chat...');
-            }
-            else { window.navigator.vibrate([500, 50, 500]); }
-            alert("!");
+            // Get position of the nav bar and the position of the link with the matching ID
+            var navPosition = $('#myNavbar').scrollLeft(),
+            elemPosition = $('.nav-item.act-suavemente').offset().left;
+
+            // Add the two together to get your scroll distance and animate    
+            $("#myNavbar").animate({scrollLeft: navPosition + elemPosition}, 800);
+
+
             let self=obj;
             let deferred = $.Deferred();
             
@@ -47,9 +45,9 @@ var GenericPage = (function(context, $) {
         },
 
         bindEvents: function () { 
-            //mobile view
-             this.Elements.body.on('click', '[data-target="#bs-canvas-left"][aria-expanded="false"]', $.proxy(this.eventToggleBtnMenuMobile));
-             this.Elements.body.on('click', '.bs-canvas-close, .bs-canvas-overlay', $.proxy(this.eventClickOutsideMenu)); 
+            // //mobile view
+            //  this.Elements.body.on('click', '[data-target="#bs-canvas-left"][aria-expanded="false"]', $.proxy(this.eventToggleBtnMenuMobile));
+            //  this.Elements.body.on('click', '.bs-canvas-close, .bs-canvas-overlay', $.proxy(this.eventClickOutsideMenu)); 
             
              
 
