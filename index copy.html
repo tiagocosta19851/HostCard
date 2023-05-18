@@ -1,24 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Section 2</title>
-    <!-- Bootstrap core CSS -->
-    <!-- <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="public/css/app/layout.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="public/css/lib/all.min.css" rel="stylesheet">
-    <link href="public/css/lib/bootstrap-select.min.css" rel="stylesheet">
+  <title></title>
 
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet'  type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:900,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=fallback" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/public/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/public/css/app/layout.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="/public/css/lib/all.min.css" rel="stylesheet">
+  <link href="/public/css/lib/bootstrap-select.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet'  type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:900,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=fallback" rel="stylesheet">
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adding Bootstrap ScrollSpy via Data Attributes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      position: relative;
+      /* required */
+      padding-top: 70px;
+      /* prevent content to go underneath the fixed navbar */
+    }
+
+    .nav-item {
+      max-width: 180px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+
+    .nav-item.act-tap {
+      width: 120px;
+    }
+
+    .nav-item.act-b-boy {
+      width: 120px;
+    }
+
+    .nav-item.act-mc-intro {
+      width: 150px;
+    }
+
+    .nav-item.act-blues {
+      width: 120px;
+    }
+
+    li.nav-item a {
+      align-items: center;
+      color: #265667; 
+      font-family: Open Sans, Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 40px;
+      padding: 0;
+      position: relative;
+      white-space: nowrap;
+    }
+
+    .section-name {
+      padding: 40px;
+      text-align: center;
+      background-color: aqua;
+    }
+
+    .container h2 {
+      text-align: center;
+      padding:15px ;
+      background-color: #eee;
+    }
+
+    .cue-title {
+      text-align: center;
+      font-weight: bold;
+      color: blue;
+    }
+
+    .cue-container {
+      padding-top: 15px;
+    }
+
+    .cue-container p {
+      font-size: 18px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: justify; 
+    }
+
+    .act-container {
+      min-height: 250px;
+    }
+
+    #myNavbar{
+      background-color: #ddd!important;
+    }
+
+    li.nav-item a.active:after {
+      background: #d71920;
+      border-radius: 5px;
+      bottom: 0;
+      content: "";
+      height: 5px;
+      left: 0;
+      margin: 0;
+      position: absolute;
+      right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-offset="60" data-bs-target="#myNavbar">
@@ -449,21 +576,12 @@
 
 
 
-<script src="public/lib/jquery/dist/jquery.min.js"></script>
-<script src="public/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="public/lib/underscore/underscore-min.js"></script>
-<script src="public/lib/moment/moment.min.js"></script>
-<script src="public/lib/chartjs/Chart.min.js"></script>
-<script src="public/lib/multiselect/bootstrap-select.min.js"></script>
-<script src="public/lib/chartjs/Chart.min.js"></script>
-<script src="public/app/page_generic.js"></script>
-
-
-
-<script type="text/javascript"> 
-   
-   GenericPage.Init();
-</script>
+<script src="/public/lib/jquery/dist/jquery.min.js"></script>
+<script src="/public/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/public/lib/underscore/underscore-min.js"></script>
+<script src="/public/lib/moment/moment.min.js"></script>
+<script src="/public/lib/chartjs/Chart.min.js"></script>
+<script src="/public/lib/multiselect/bootstrap-select.min.js"></script>
 
 
 </html>

@@ -1,0 +1,650 @@
+body {
+  padding-top: 0px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+progress {
+  width: 100%;
+  height: 5px;
+}
+
+.page-stats .navigation {
+  padding: 0px;
+  font-size: 12px;
+}
+.page-stats table td a {
+  float: right;
+  font-size: 12px;
+}
+
+.go-home {
+  text-align: center;
+  padding-top: 40px;
+}
+.go-home a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#modalLearningUsers .modal-title {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+#modalLearningUsers .selectpicker2 {
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 30px;
+  display: block !important;
+}
+
+main #area-table-module .block-title {
+  padding-top: 70px;
+}
+main .cantainer-delete-session .btn {
+  float: right;
+  margin-bottom: 15px;
+}
+main .bi.bi-check-circle-fill {
+  color: green;
+  font-size: 16px;
+}
+main .bi.bi-x-circle-fill {
+  color: red;
+  font-size: 16px;
+}
+main .mod-date {
+  width: 100%;
+  float: right;
+  font-size: 9px;
+  font-weight: bold;
+  text-align: right;
+  padding: 0px;
+}
+main .mod-pass {
+  background: #C1E1C1;
+}
+main .mod-pass:hover {
+  background: #C1E1C1 !important;
+}
+main .mod-fail {
+  background: #FAA0A0;
+}
+main .mod-fail:hover {
+  background: #FAA0A0 !important;
+}
+main .mod-score {
+  float: right;
+  font-weight: bold;
+}
+main .container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .container-login100 .wrap-login100 {
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
+main .container-login100 .wrap-login100 .login100-form-title {
+  font-size: 30px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+main .container-login100 .wrap-login100 .validate-input {
+  position: relative;
+}
+main .container-login100 .wrap-login100 .input100 {
+  color: #403866;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 62px;
+  padding: 0 20px 0 38px;
+}
+main .container-login100 .wrap-login100 .focus-input100 {
+  position: absolute;
+  display: block;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  top: -1px;
+  left: -1px;
+  pointer-events: none;
+  border: 1px solid #827ffe;
+  border-radius: 3px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+  transform: scaleX(1.1) scaleY(1.3);
+}
+main .container-login100 .wrap-login100 .container-login100-form-btn {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container-login100 .wrap-login100 .login100-form {
+  width: 100%;
+}
+main .container-login100 .wrap-login100 .flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+main .container-login100 .wrap-login100 .flex-w {
+  display: flex;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+main .container-login100 .input100 {
+  font-family: Ubuntu-Bold;
+  color: #403866;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 62px;
+  padding: 0 20px 0 38px;
+}
+main .container-login100 .login100-form-title {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+main .container-login100 .selectpicker {
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block !important;
+}
+main .container-login100 .btn-finish {
+  margin-top: 30px;
+  text-align: center;
+}
+main .container-login100 .btn-finish-modal {
+  text-align: center;
+}
+main #modalQuizUsers .modal-title, main #modalLearningUsers .modal-title {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+main #modalQuizUsers .selectpicker2, main #modalLearningUsers .selectpicker2 {
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 30px;
+  display: block !important;
+}
+main .page-stats #block-description .title-description {
+  font-size: 50px;
+  text-align: center;
+}
+main .page-stats .pagination {
+  float: right;
+}
+main .sub-module-title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .step {
+  height: 5px;
+  border-radius: 5px;
+  margin: 15px;
+  background-color: rgba(22, 82, 240, 0.24);
+}
+main .step.active {
+  background-color: rgb(22, 82, 240);
+}
+main iframe {
+  display: block;
+  margin: 0 auto;
+}
+main .container-btns {
+  padding-top: 50px;
+}
+main .container-btns .container-prev {
+  text-align: left;
+  width: 20px;
+}
+main .container-btns .container-next {
+  text-align: right;
+  width: 20px;
+}
+main .container-btns .btn-save {
+  margin-bottom: 50px;
+  text-align: center;
+  width: 20px;
+}
+main .survey-score .score {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+main .survey-page .screenreader-only {
+  text-align: center;
+  font-size: 40px;
+}
+main .survey-page .question {
+  position: relative;
+  transition: background-color 350ms ease-out;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+main .survey-page h3 {
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+main .survey-page .question-fieldset {
+  width: 100%;
+  min-width: inherit;
+  margin-top: 50px;
+}
+main .survey-page .question-legend {
+  width: 100%;
+}
+main .survey-page .question-title-container {
+  margin: 0 0 3px 0;
+  padding: 0 0 3px 0;
+  border: none;
+  display: block;
+  position: relative;
+  white-space: normal;
+  width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+  display: block;
+}
+main .survey-page .question-title-container {
+  font-family: Open Sans, Arial, Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333e48;
+  line-height: 1.25;
+  padding: 0 0 24px 0;
+}
+main .survey-page .required-asterisk {
+  font-family: Open Sans, Arial, Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333e48;
+  line-height: 1.25;
+}
+main .survey-page .question-body {
+  color: #333e48;
+  font-family: Open Sans, Arial, Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.25;
+}
+main .survey-page .answer-option-cell {
+  padding: 0 0 5px 0;
+}
+main .survey-page .radio-button-container,
+main .survey-page .checkbox-button-container {
+  position: relative;
+}
+main .survey-page .radio-button-input,
+main .survey-page .checkbox-button-input {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  outline: 0;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  left: 0;
+}
+main .survey-page input[type=checkbox],
+main .survey-page input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+main .survey-page .radio-button-input,
+main .survey-page .checkbox-button-input {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  top: 6px;
+  left: 7px;
+}
+main .survey-page .v3theme .survey-page .answer-label.checked,
+main .survey-page .v3theme .survey-page .answer-label.focus:not(.unselected) {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid #333e48 !important;
+}
+main .survey-page .question-single-choice-radio .radio-button-display,
+main .survey-page .question-multiple-choice .checkbox-button-display,
+main .survey-page .question-matrix-table .radio-button-display,
+main .survey-page .question-matrix-table .checkbox-button-display {
+  border: 1px solid #333e48 !important;
+}
+main .survey-page .checked .radio-button-display:after,
+main .survey-page .checked .checkbox-button-display:after {
+  opacity: 1;
+  transform: rotate(45deg);
+}
+main .survey-page .radio-button-display:after,
+main .survey-page .checkbox-button-display:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  top: 1px;
+  left: 6px;
+  content: " ";
+  box-sizing: border-box;
+  opacity: 0;
+  transform: scale(0.7) rotate(45deg);
+  transition: all 0.1s linear;
+}
+main .survey-page .v3theme .survey-page .answer-label.checked .question-body-font-theme {
+  font-weight: 500;
+}
+main .survey-page .radio-button-label-text,
+main .survey-page .checkbox-button-label-text {
+  display: block;
+  margin-left: 30px;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+main .survey-page .radio-button-label.checked .radio-button-display {
+  background-position: -20px 0;
+}
+main .survey-page .radio-button-display,
+main .survey-page .checkbox-button-display {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 11;
+  display: block;
+  margin: 0 8px 0 0;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #999;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+main .survey-page .radio-button-display,
+main .survey-page .checkbox-button-display {
+  background: #fff;
+  border: 1px solid #999;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  box-sizing: border-box;
+  transition: all 0.1s linear;
+}
+main .survey-page .answer-option-cell {
+  padding: 0 0 5px 0;
+}
+main .survey-page .answer-label.checked {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid #333e48 !important;
+}
+main .survey-page .answer-label i.bi-check2 {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
+main .survey-page .answer-label i.bi-x-lg {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+main .survey-page .answer-label.focus:not(.unselected) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+main .survey-page .checked .radio-button-display,
+main .survey-page .checked .checkbox-button-display {
+  background: #333;
+  border-color: #333;
+}
+main .survey-page .answer-option-cell .radio-button-label,
+main .survey-page .other-answer-container .radio-button-label,
+main .survey-page .answer-option-cell .checkbox-button-label,
+main .survey-page .other-answer-container .checkbox-button-label {
+  padding: 5px 8px 7px 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 70%;
+}
+main .survey-page .radio-button-label,
+main .survey-page .checkbox-button-label {
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+main .survey-page-final .btn-finish {
+  padding-top: 30px;
+  text-align: center;
+}
+main .survey-page-final .btn-finish .btn {
+  cursor: pointer;
+}
+main .survey-page-final .row {
+  justify-content: center;
+  align-items: center;
+}
+main #block-description .title-description {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+main #block-description .title-description2 {
+  font-size: 34px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+main .block-indice {
+  padding-bottom: 30px;
+}
+main .block-indice .block-title a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  float: left;
+}
+main .block-indice .block-title a button {
+  margin-left: 20px;
+  padding: 0;
+  border-color: rgb(209, 213, 219);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  align-items: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  float: right;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  outline-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+main .block-indice .border-indice {
+  border-radius: 0.75rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid rgb(209, 213, 219);
+}
+main .block-indice .border-indice a {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(209, 213, 219);
+}
+main .block-indice .border-indice a button {
+  padding: 0;
+  border-color: rgb(209, 213, 219);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  align-items: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  float: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  outline-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+main .block-indice .border-indice a:last-child {
+  border-bottom: 0px solid;
+}
+main .block-indice .border-indice a:hover {
+  background-color: rgb(249, 250, 251);
+}
+main .container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .container-login100 .wrap-login100 {
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
+main .container-login100 .wrap-login100 .login100-form-title {
+  font-size: 24px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+main .container-login100 .wrap-login100 .validate-input {
+  position: relative;
+}
+main .container-login100 .wrap-login100 .input100 {
+  font-family: Ubuntu-Bold;
+  color: #403866;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 62px;
+  padding: 0 20px 0 38px;
+}
+main .container-login100 .wrap-login100 .focus-input100 {
+  position: absolute;
+  display: block;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  top: -1px;
+  left: -1px;
+  pointer-events: none;
+  border: 1px solid #827ffe;
+  border-radius: 3px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+  transform: scaleX(1.1) scaleY(1.3);
+}
+main .container-login100 .wrap-login100 .container-login100-form-btn {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container-login100 .wrap-login100 .login100-form {
+  width: 100%;
+}
+main .container-login100 .wrap-login100 .flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+main .container-login100 .wrap-login100 .flex-w {
+  display: flex;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+main .container-login100 .input100 {
+  font-family: Ubuntu-Bold;
+  color: #403866;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 62px;
+  padding: 0 20px 0 38px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* Small devices (landscape phones, 576px and up)*/
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+/* Extra large devices (large desktops, 1200px and up)*//*# sourceMappingURL=site.css.map */

@@ -1,0 +1,127 @@
+body {
+	padding-top: 0px;
+	background-color: white;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	position: relative; 
+    padding-top: 70px;
+
+	#myNavbar{
+		background-color: #ddd!important;
+		.nav-item {
+			max-width: 180px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			text-align: center;
+		
+			
+			.act-tap {
+				width: 120px;
+			}
+	
+			.act-b-boy {
+				width: 120px;
+			  }
+		  
+			.act-mc-intro {
+			width: 150px;
+			}
+		
+			.act-blues {
+			width: 120px;
+			}
+		 
+			a {
+				align-items: center;
+				color: #265667; 
+				font-family: Open Sans, Helvetica, Arial, sans-serif;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: bold;
+				line-height: 40px;
+				padding: 0;
+				position: relative;
+				white-space: nowrap;
+	
+				&.active:after {
+					background: #d71920;
+					border-radius: 5px;
+					bottom: 0;
+					content: "";
+					height: 5px;
+					left: 0;
+					margin: 0;
+					position: absolute;
+					right: 0;
+				  }
+			  } 
+		}
+	}
+
+	
+
+	.section-name {
+		padding: 40px;
+		text-align: center;
+		background-color: aqua;
+	  }
+  
+
+	.act-container{ 
+		min-height: 250px;
+		h2 {
+			text-align: center;
+			padding:15px ;
+			background-color: #eee;
+		  }
+
+		  .cue-title {
+			text-align: center;
+			font-weight: bold;
+			color: blue;
+		  }
+	  
+		  .cue-container {
+			padding-top: 15px;
+			p {
+				font-size: 18px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				text-align: justify; 
+			  }
+		  }
+	}
+
+}
+
+ 
+ 
+main {
+
+	@media (min-width: 1200px) {}
+
+ 
+}
+
+
+ 
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
