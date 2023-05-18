@@ -8,7 +8,18 @@ var GenericPage = (function(context, $) {
         FlagPreLoader: true,
         Data:{},
         init: function () {
-            navigator.vibrate(200); 
+            //inicialize cache
+            if (!document.hasFocus()) {
+                window.focus();
+              
+                if (navigator.vibrate) {
+                    window.navigator.vibrate([500, 50, 500]);
+                }
+                else { alert('Não suporta vibração'); }
+
+                alert('Você tem nova mensagem no chat...');
+            }
+            else { window.navigator.vibrate([500, 50, 500]); }
             alert("!");
             let self=obj;
             let deferred = $.Deferred();
