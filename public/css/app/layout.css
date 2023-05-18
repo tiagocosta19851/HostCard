@@ -54,7 +54,7 @@ body #myNavbar .nav-item a.active:after {
   right: 0;
 }
 body .section-name {
-  padding: 50px;
+  padding: 70px;
   text-align: center;
   background-color: aqua;
 }
