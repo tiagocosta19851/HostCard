@@ -39,9 +39,7 @@
 
     li.nav-item a {
       align-items: center;
-      color: #265667;
-      display: flex;
-      flex-wrap: nowrap;
+      color: #265667; 
       font-family: Open Sans, Helvetica, Arial, sans-serif;
       font-size: 20px;
       font-style: normal;
@@ -61,25 +59,54 @@
     .container h2 {
       text-align: center;
     }
-    .cue-title{
+
+    .cue-title {
       text-align: center;
       font-weight: bold;
-      color:blue;
+      color: blue;
     }
 
-    .cue-container{
+    .cue-container {
       padding-top: 15px;
     }
 
-    .cue-container p{
+    .cue-container p {
       font-size: 18px;
       padding-top: 5px;
       padding-bottom: 5px;
+      text-align: justify; 
     }
-.act-container{
-  min-height: 250px;
-}
 
+    .act-container {
+      min-height: 250px;
+    }
+
+
+
+    li.nav-item a.active:after {
+      background: #d71920;
+      border-radius: 5px;
+      bottom: 0;
+      content: "";
+      height: 5px;
+      left: 0;
+      margin: 0;
+      position: absolute;
+      right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
   </style>
 </head>
 
@@ -175,25 +202,27 @@
   </nav>
   <div class="container">
     <h1 class="section-name">Section 2</h1>
-    <div id="act-begginers"  class="act-container">
+    <div id="act-begginers" class="act-container">
       <h2>Begginers</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris
-        magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non
-        non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.
-        Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at
-        bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer
-        faucibus ligula.</p>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span></span></h5>
+          <p></p>
+        </div>
+
+      </div>
 
     </div>
     <hr>
     <div id="act-bad-opening" class="act-container">
       <h2>Bad Opening</h2>
       <div class="vg">
-         
+
         <div class="cue-container">
           <h5 class="cue-title"><span>1.</span>After Mike jumps on stage</h5>
-            <p>Collect Mike's cloth and return to SL props box </p>
-        </div> 
+          <p>Collect Mike's cloth and return to SL props box </p>
+        </div>
 
       </div>
     </div>
@@ -201,25 +230,25 @@
     <div id="act-mc-intro" class="act-container">
       <h2>MC Intros</h2>
       <div class="vg">
-         
+
         <div class="cue-container">
           <h5 class="cue-title"><span></span></h5>
-            <p>Monitor Aisles </p>
-        </div> 
+          <p>Monitor Aisles </p>
+        </div>
 
       </div>
     </div>
-     
+
     <hr>
 
     <div id="act-b-boy" class="act-container">
       <h2>B Boy</h2>
       <div class="vg">
-         
+
         <div class="cue-container">
           <h5 class="cue-title"><span></span></h5>
-            <p>Monitor Aisles </p>
-        </div> 
+          <p>Monitor Aisles </p>
+        </div>
 
       </div>
     </div>
@@ -227,11 +256,11 @@
     <div id="act-suavemente" class="act-container">
       <h2>Suavemente</h2>
       <div class="vg">
-         
+
         <div class="cue-container">
           <h5 class="cue-title"><span></span></h5>
-            <p>Monitor Aisles </p>
-        </div> 
+          <p>Monitor Aisles </p>
+        </div>
 
       </div>
     </div>
@@ -239,25 +268,272 @@
     <div id="act-tap" class="act-container">
       <h2>Tap</h2>
       <div class="vg">
-         
+
         <div class="cue-container">
           <h5 class="cue-title"><span></span></h5>
-            <p>Monitor Aisles </p>
+          <p>Monitor Aisles </p>
+        </div>
+
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+    <div id="act-blues" class="act-container">
+      <h2>Blues</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>When Dancer gets off stage</span></h5>
+          <p>Clear PTAB12 and Split chairs 2&3 apart         Table free to use?</p> 
         </div> 
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+    <div id="act-permission" class="act-container">
+      <h2>Permission</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>Dancers Stand on tables</span></h5>
+          <p>Crouch by PTAB12 & prevent audience crossing</p> 
+        </div> 
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>End of act</span></h5>
+          <p>Go to stage right and take 2nd lady off stage back to her seat</p> 
+        </div> 
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+    <div id="act-serenade" class="act-container">
+      <h2>Serenade</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span></span></h5>
+          <p>Monitor Aisles</p> 
+        </div> 
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+
+    <div id="act-male-appreciation" class="act-container">
+      <h2>Male Appreciation</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>When rappel comes in</span></h5>
+          <p>Crouch by PTAB12 & prevent audience crossing</p> 
+        </div>
+        <div class="cue-container">
+          <h5 class="cue-title"><span>When guests shown off stage</span></h5>
+          <p>Take guest back to seat</p> 
+        </div>
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+    
+    <div id="act-wild-love" class="act-container">
+      <h2>Wild Love</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>when MC sits on bridge</span></h5>
+          <p>Clear PTAB 6-7 Table free to use?</p> 
+        </div>
+
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+
+    <div id="act-candy-shop" class="act-container">
+      <h2>Candy Shop</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>End of the number</span></h5>
+          <p>Give guest on table blue roll and escort her back to her seat </p>
+          <p>KEEP TABLE CLEAR - Move guest back to PT 6&7</p>
+        </div>
+
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+
+
+
+    <div id="act-special-delivery2" class="act-container">
+      <h2>Special Delivery 2</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>When dancer slides across stage</span></h5>
+          <p>Monitor rappel and aisle</p>
+        </div>
+
+      </div>
+    </div> 
+    <hr>
+
+
+
+
+
+
+
+
+    <div id="act-suits" class="act-container">
+      <h2>Suits</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>Dancers in aisles (middle of act)</span></h5>
+          <p>Stay in position to monitor audience</p>
+        </div>
+
+      </div>
+    </div> 
+    <hr>
+
+
+
+    <div id="act-slow-dance" class="act-container">
+      <h2>Slow Dance</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span></span></h5>
+          <p> </p>
+        </div>
+
+      </div>
+    </div> 
+    <hr>
+
+
+    <div id="act-wet-dream" class="act-container">
+      <h2>Wet Dream</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>When MC says 'on a lucky audience member'</span></h5>
+          <p>Kneel by FR8-9 to monitor Pool/Audience until pool is fully down on the stage COLLECT GLASSES</p>
+        </div>
+        
+        <div class="cue-container">
+          <h5 class="cue-title"><span>When dancers are on the walk ways</span></h5>
+          <p>Go to FR1-10 and ask them to hold their glasses and check the floor is clear</p>
+        </div>
+        
 
       </div>
     </div>
- 
+
+
+
+
+
+    <hr>
+    <div id="act-lap-dance" class="act-container">
+      <h2>Lap dance</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span></span></h5>
+        
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <hr>
+    <div id="act-closer" class="act-container">
+      <h2>Closer</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span>Dancers on Upper repel </span></h5>
+          <p>Monitor aisles, do not walk under rappel when being used</p>
+        </div>
+        <div class="cue-container">
+          <h5 class="cue-title"><span>Trousers are pulled off</span></h5>
+          <p>Clear SPTAB3, PTAB 9, 10, 12, Table between FR7&8</p>
+        </div>
+      </div>
+    </div>
+
+
+    <hr>
+    <div id="act-everfall" class="act-container">
+      <h2>Everfall</h2>
+      <div class="vg">
+
+        <div class="cue-container">
+          <h5 class="cue-title"><span></span></h5>
+          <p>Keep clear SPTAB3, PTAB 9, 10, 12, 15, Table between FR7&8</p>
+        </div>
+
+      </div>
+    </div>
+
+
     <hr>
     <div id="act-finale">
       <h2>Finale</h2>
       <div class="cue-container">
         <h5 class="cue-title"><span>1.</span>MC says 'up on your feet'</h5>
-          <p>1. Go to PTAB15 clean the table </p>
-          <p>2. Wait until dancer steps on stage. </p>
-          <p>3. Go to Section 8 & stand by bridge until closed, stand at Code Pink button until end of the show. </p>
-        
-      </div> 
+        <p>1. Go to PTAB15 clean the table </p>
+        <p>2. Wait until dancer steps on stage. </p>
+        <p>3. Go to Section 8 & stand by bridge until closed, stand at Code Pink button until end of the show. </p>
+
+      </div>
     </div>
   </div>
 </body>
