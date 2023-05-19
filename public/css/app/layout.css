@@ -120,6 +120,12 @@ body .act-container .cue-container p {
   padding-bottom: 5px;
   text-align: justify;
 }
+body .act-container .cue-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 /* Small devices (landscape phones, 576px and up)*/
