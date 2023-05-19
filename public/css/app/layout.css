@@ -53,6 +53,46 @@ body #myNavbar .nav-item a.active:after {
   position: absolute;
   right: 0;
 }
+body #button {
+  display: inline-block;
+  background-color: #aaa;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+body #button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+body #button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+body #button:active {
+  background-color: #555;
+}
+body #button.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 500px) {
+  body #button {
+    margin: 30px;
+  }
+}
 body .section-name {
   padding: 70px;
   text-align: center;
