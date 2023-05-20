@@ -20,7 +20,7 @@ var GenericPage = (function(context, $) {
             var btn = $('#button');
 
             $(window).scroll(function() {
-            if ($(window).scrollTop() > 300) {
+            if ($(window).scrollTop() > 400) {
                 btn.addClass('show');
             } else {
                 btn.removeClass('show');
@@ -29,7 +29,7 @@ var GenericPage = (function(context, $) {
 
             btn.on('click', function(e) {
             e.preventDefault();
-            $('html, body').animate({scrollTop:0}, '300');
+            $('html, body').animate({scrollTop:0}, '400');
             });
 
 
