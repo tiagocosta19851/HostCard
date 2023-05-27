@@ -5,63 +5,29 @@ body {
 	font-weight: 300;
 	font-size: 14px;
 	position: relative;  
-    padding-top: 70px;
-
-	#myNavbar{
-		background-color: #ddd!important;
-		.nav-item {
-			max-width: 180px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-top: 15px;
-			padding-bottom: 15px;
-			text-align: center;
-		
-			
-			.act-tap {
-				width: 120px;
+     
+	.navbar {
+		background-color: #2e343a!important;
+		button{
+			border-color: black!important; 
+		}
+		.nav-link{
+			font-size: 20px;
+			&:not(.active){
+				color: white;
+			 
 			}
-	
-			.act-b-boy {
-				width: 120px;
-			  }
-		  
-			.act-mc-intro {
-			width: 150px;
-			}
-		
-			.act-blues {
-			width: 120px;
-			}
-		 
-			a {
-				align-items: center;
-				color: #265667; 
-				font-family: Open Sans, Helvetica, Arial, sans-serif;
+			&.active{
 				font-size: 20px;
-				font-style: normal;
+				color: black;
 				font-weight: bold;
-				line-height: 40px;
-				padding: 0;
-				position: relative;
-				white-space: nowrap;
-	
-				&.active:after {
-					background: #d71920;
-					border-radius: 5px;
-					bottom: 0;
-					content: "";
-					height: 5px;
-					left: 0;
-					margin: 0;
-					position: absolute;
-					right: 0;
-				  }
-			  } 
+			}
 		}
 	}
 
-	
+	#main-container{
+		padding: 0px;
+	}
 
 
 	#button  {
@@ -123,7 +89,7 @@ body {
 	.section-name {
 		padding: 70px;
 		text-align: center;
-		background-color: aqua;
+		background-color: #4a7d95;
 	  }
   
 
@@ -133,7 +99,50 @@ body {
 			text-align: center;
 			padding:15px ;
 			background-color: #eee;
+			font-weight: bold;
+
+			&.content-section-header {
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+			}
 		  }
+
+		  .highlight-table{
+			color: #842029;
+			font-weight: bold;
+			border: 1px solid #ccc;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			padding-left: 5px;
+			padding-right: 6px;
+			background-color: #f8d7da;
+			border-color: #f5c2c7;
+		  }
+
+		  .content-section-header {
+			background: #eee;
+			border-radius: 3px;
+			margin-bottom: 15px;
+			padding: 8px 14px;
+			position: relative;
+
+			.content-section-header-border {
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+			}
+			h2 {
+				 
+				line-height: 15px;
+				text-align: center;
+				padding: 15px;
+				background-color: #eee;
+				font-weight: bold;
+			}
+		}
 
 		  .cue-title {
 			text-align: center;
@@ -142,7 +151,7 @@ body {
 		  }
 	  
 		  .cue-container {
-			padding-top: 15px;
+			padding-right: 15px;
 			p {
 				font-size: 18px;
 				padding-top: 5px;
@@ -150,13 +159,71 @@ body {
 				text-align: justify; 
 			  }
 
-
+			  .hword {
+				font-size: 39px;
+				line-height: 52px;
+			}
+			h2
+			{
+				background-color: white;
+				&.parts-of-speech div{
+					font-size: 24px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: 34px;
+					color: #4a7d95;
+					text-decoration: none;
+					
+				}
+			}
 			  img{
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
 				padding-bottom: 25px;
 			  }
+
+			.vg-sseq-entry-item{
+				 
+				display: flex;
+				padding-bottom: 20px;
+				padding-top: 0;
+				position: relative;
+				.vg-sseq-entry-item-label {
+					color: #303336;
+					font-family: Open Sans,Helvetica,Arial,sans-serif;
+					font-size: 19px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: 28px;
+					min-width: 20px;
+					text-align: center;
+				}
+
+				.vg-sseq-entry-item-thread-anchor {
+					background: linear-gradient(180deg,#cbe1ea,rgba(203,225,234,.48) 21.21%,rgba(203,225,234,.48) 78.8%,rgba(203,225,234,.9));
+					background: linear-gradient(180deg,#bbd5e0,#deeaef 17.8%,#deeaef 81.87%,#bbd5e0);
+					border-radius: 4px;
+					display: block;
+					height: calc(100% - 37px);
+					left: 9px;
+					position: absolute;
+					top: 33px;
+					width: 3px;
+				}
+			}
+			// .sense.has-num-only {
+			// 	padding-left: 10px;
+			// }
+			.sense {
+				display: flex;
+			}
+			.sb-entry{
+				font-size: 18px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				text-align: justify;
+			}
 		  }
 	}
 

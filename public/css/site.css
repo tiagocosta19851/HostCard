@@ -7,9 +7,6 @@ body {
   position: relative;
   padding-top: 70px;
 }
-body #myNavbar {
-  background-color: #ddd !important;
-}
 body #myNavbar .nav-item {
   max-width: 180px;
   padding-left: 10px;
@@ -55,7 +52,7 @@ body #myNavbar .nav-item a.active:after {
 }
 body #button {
   display: inline-block;
-  background-color: #FF9800;
+  background-color: #aaa;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -88,6 +85,11 @@ body #button.show {
   opacity: 1;
   visibility: visible;
 }
+@media (min-width: 500px) {
+  body #button {
+    margin: 30px;
+  }
+}
 body .section-name {
   padding: 70px;
   text-align: center;
@@ -114,6 +116,12 @@ body .act-container .cue-container p {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: justify;
+}
+body .act-container .cue-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
